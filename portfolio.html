@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Carey Ahn Photography Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+
+	<header>
+		<nav id="top-nav-mobile" class="top-nav-mobile">
+			<div class="logo">
+				<a href="index.html"><img src="images/small_logo.PNG" alt="Carey Ahn Logo"></a>
+			</div>
+
+			<div id="hamburger" class="hamburger">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="menu-items" class="menu-items" style="display:none;">
+				<div id="x"><i class="fas fa-times"></i></div>
+		       	<ul>
+		            <li><a href="index.html">About</a></li>
+		            <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
+		            <li><a href="blog.html">Blog</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		        </ul>
+		    </div>   
+   		</nav>
+
+		<nav id = "top-nav" class="top-nav">
+			<div class="logo">
+				<a href="index.html"><img src="images/small_logo.PNG" alt="Carey Ahn Logo" height = 100></a>
+			</div>
+	       	<ul>
+	            <li><a href="index.html">About</a></li>
+	            <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
+	            <li><a href="blog.html">Blog</a></li>
+	            <li><a href="contact.html">Contact</a></li>
+	        </ul>   
+   		</nav>
+	</header>
+	
+	<div class="port-grid">
+		<section class="around-images">
+			<div class="portfolio-grid">
+
+				<div class="photo-cell port left">
+					<a href="weddings.html"><img class="resp-img" src="images/Weddings/dana2.jpg" alt="Wedding section thumbnail"></a>
+<!-- 					<img class="resp-img" src="images/Weddings/dana2.jpg" href="weddings.html" alt="Wedding section thumbnail"> -->
+					<a href="weddings.html" class="port-link">Weddings</a>
+				</div>
+		         
+		        <div class="photo-cell port right" >
+		        	<a href="engagements.html"><img class="resp-img" src="images/Engagements/tb2.jpg" alt="Engagement section thumbnail"></a>
+					<a href="engagements.html" class="port-link">Engagements</a>
+		        </div>
+		        
+		        <div class="photo-cell port left">
+		        	<a href="families.html"><img class="resp-img" src="images/Families/alterkids2.jpg" alt="Families section thumbnail"></a>
+					<a href="families.html" class="port-link">Families</a>
+				</div>
+		        
+		        <div class="photo-cell port right">
+		        	<a href="seniors.html"><img class="resp-img" src="images/Seniors/ccolor.jpg" alt="Seniors section thumbnail"></a>
+					<a href="seniors.html" class="port-link">Seniors</a>
+				</div>
+
+		        <div class="photo-cell port left">
+		        	<a href="products.html"><img class="resp-img" src="images/Products/bowtie.jpg" alt="Products section thumbnail"></a>
+					<a href="products.html" class="port-link">Products</a>
+		        </div>
+		   </div>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<a class="social" href="https://www.instagram.com/careyahnphotography/" target="_blank">
+        	<img src="images/instagram.png" alt="Instagram Logo" class="social-icon" height=30>
+        </a>
+
+        <a class="social" href="https://www.facebook.com/careyahnphotography" target="_blank">
+        	<img src="images/facebook.png" alt="Facebook Logo" class="social-icon" height=30>
+        </a>
+
+       	<br>
+       	<p>Carey Ahn Photography &copy; 2018</p>
+	</footer>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	// $(document).ready(function(){
+		$("#hamburger").click(function() {
+			$("#menu-items").toggle();
+	});
+</script>
+<script>
+	// $(document).ready(function(){
+		$("#x").click(function() {
+			$("#menu-items").toggle();
+	});
+</script>
+
+</body>
+
+</html>

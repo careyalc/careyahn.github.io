@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Carey Ahn Photography Products</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+
+	<header>
+		<nav id="top-nav-mobile" class="top-nav-mobile">
+			<div class="logo">
+				<a href="index.html"><img src="images/small_logo.PNG" alt="Carey Ahn Logo"></a>
+			</div>
+
+			<div id="hamburger" class="hamburger">
+				<i class="fas fa-bars"></i>
+			</div>
+			<div id="menu-items" class="menu-items" style="display:none;">
+				<div id="x"><i class="fas fa-times"></i></div>
+		       	<ul>
+		            <li><a href="index.html">About</a></li>
+		            <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
+		            <li><a href="blog.html">Blog</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		        </ul>
+		    </div>   
+   		</nav>
+
+		<nav id = "top-nav" class="top-nav">
+			<div class="logo">
+				<a href="index.html"><img src="images/small_logo.PNG" alt="Carey Ahn Logo" height = 100></a>
+			</div>
+	       	<ul>
+	            <li><a href="index.html">About</a></li>
+	            <li><a class="current-page" href="portfolio.html">Portfolio</a></li>
+	            <li><a href="blog.html">Blog</a></li>
+	            <li><a href="contact.html">Contact</a></li>
+	        </ul>   
+   		</nav>
+	</header>
+
+	<section class="subheadings">
+		<ul>
+			<li><a href="weddings.html">Weddings</a></li>
+	        <li><a href="engagements.html">Engagements</a></li>
+	        <li><a href="families.html">Families</a></li>
+	        <li><a href="seniors.html">Seniors</a></li>
+	        <li><a class="current-sub-page" href="products.html">Products</a></li>
+	    </ul>
+	</section>
+	<div class ="product-grid">
+		<!--Photo Gallery-->
+		<section class="around-images">
+			<h1>Products</h1>
+			<div class="photo-grid">
+
+				<a class="photo-cell item1" href="images/Products/bowtie.jpg" data-lightbox="example-set"><img class="photo-cell item1" src="images/Products/bowtie.jpg" alt="Bowtie on a man"/></a>
+
+				<a class="photo-cell item2" href="images/Products/nick.jpg" data-lightbox="example-set"><img class="photo-cell item2" src="images/Products/nick.jpg" alt="Mean wearing a bowtie"/></a>
+
+				<a class="photo-cell item3-2" href="images/Products/bbdana.jpg" data-lightbox="example-set"><img class="photo-cell item3-2" src="images/Products/bbdana.jpg" alt="Girl holding a snack"/></a>
+
+				<a class="photo-cell item4-2" href="images/Products/true.jpg" data-lightbox="example-set"><img class="photo-cell item4-2" src="images/Products/true.jpg" alt="Man holding cologne"/></a>
+
+				<a class="photo-cell item5-2" href="images/Products/woodhat.jpg" data-lightbox="example-set"><img class="photo-cell item5-2" src="images/Products/woodhat.jpg" alt="Girl wearing a hat in the woods"/></a>
+
+				<a class="photo-cell item6" href="images/Products/hat.jpg" data-lightbox="example-set"><img class="photo-cell item6" src="images/Products/hat.jpg" alt="Girl wearing a hat"/></a>
+
+				<a class="photo-cell item7" href="images/Products/tshirt.jpg" data-lightbox="example-set"><img class="photo-cell item7" src="images/Products/tshirt.jpg" alt="Girl downtown"/></a>
+
+			</div>
+		</section>
+	</div>
+
+	<footer class="footer">
+		<a class="social" href="https://www.instagram.com/careyahnphotography/" target="_blank">
+        	<img src="images/instagram.png" alt="Instagram Logo" class="social-icon" height=30>
+        </a>
+
+        <a class="social" href="https://www.facebook.com/careyahnphotography" target="_blank">
+        	<img src="images/facebook.png" alt="Facebook Logo" class="social-icon" height=30>
+        </a>
+
+       	<br>
+       	<p>Carey Ahn Photography &copy; 2018</p>
+	</footer>
+
+<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	// $(document).ready(function(){
+		$("#hamburger").click(function() {
+			$("#menu-items").toggle();
+	});
+</script>
+<script>
+	// $(document).ready(function(){
+		$("#x").click(function() {
+			$("#menu-items").toggle();
+	});
+</script>
+
+</body>
+
+</html>
